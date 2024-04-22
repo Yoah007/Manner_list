@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Printivo</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0%;
+        }
+        .header{
+            height: 60px;
+            width: 100%;
+            background-color: #f7f6f4;
+            position: absolute;
+            top: 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            justify-content: space-around;
+        
+        }
+        .main{
+                    width: 100%;
+        background-color: #ece8d9;
+        background-position: center;
+        background-size: cover;
+        height: 550px;
+        margin-top: 5%;
+
+        }
+        .navbar{
+            width: -150px;
+            height: 75px;
+            margin: auto;
+            
+        }
+
+       .Menu{
+        width: 400px;
+        float: right;
+        height: 24px;
+       }
+       ul{
+        float: right;
+        display: flex;
+        justify-self: center;
+        align-items: center;
+       }
+       ul li{
+        list-style: none;
+        margin-right: 62px;
+        margin-top: -40px;
+        font-size: 13px;
+       }
+       ul li a{
+        text-decoration: none;
+        color: #394a62;
+        font-family: Arial;
+        font-weight: bold;
+        transition: 0.4s ease-in-out;
+       }
+       .logo{
+        padding-top: 20px;
+        padding-left: 100px;
+       }
+       ul li a:hover{
+        color: #394a62;
+       }
+       .title-font{
+        font-weight: bold;
+        font-size: xx-large;
+        font-family: serif;color: #384a62;
+        padding-left: 100px;
+        position: relative;top: 120px;
+        
+        
+       }
+       .sub-font{
+        font-size: large;
+        color: #384a62;
+        padding-left: 100px;
+        position: relative;top: 130px;
+       }
+       .search{
+        width: max-content;
+        display: flex;
+        align-items: center;
+        padding-left: 80px;
+        margin-top: 220px;
+        position: absolute;
+        
+       }
+       .srch{
+        font-size: 16px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-left: 14px;
+        outline: none;
+        border: none;
+        background-color: white;
+        width: 600px;
+        height: 80px;
+       }
+       .search-icon{
+        position: absolute;left: 650px;
+       }
+       .searchquery{
+        font-size: large;
+        padding-left: 100px;
+        position: absolute;top: 390px;
+        color: #384a62;
+       }
+       .card3{
+        position: absolute;right: 11px;
+        bottom: 110px;
+       }
+       .h3pop{
+        font-size: xx-large;
+        color: #384a62;
+        position: relative;
+        bottom: -450px;
+        padding-left: 6%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-right: 20px;
+       }
+       .h3pop a{
+        font-size: large;
+        color: orangered;
+       }
+       .flex_container{
+        display: flex;
+        height: 1000px;
+        background-color: white;
+        border: 2px;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        position: relative;
+        bottom: -700px;
+        gap: 50px;
+        align-content: center;
+        
+       }
+       .container-a{
+        flex-basis: 250px;
+        line-height: 25px;
+        background-color: #ffffff;
+        margin: 10px;
+        width: 100px;
+        color: #394b62;
+        padding-right: 20px;
+        border: 2px solid #f7f6f4;
+       }
+      div .flex_box{
+        display: flex;
+        height: 300px;
+        width: 100px;
+        background-color: #621a3f;
+        border: 2px solid red;
+       }
+       .categories{
+        transform: translateY(950px);
+        translate: 100px;
+       }
+       .all-cat{
+        transform: translateY(900px);
+        translate: 80%;
+       }
+       .all-categories{
+        display: flex;
+        height: 400px;
+        background-color: white;
+        border: 2px;
+        flex-direction: row;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        transform: translateY(950px);
+        gap: 50px;
+        translate: 80px;
+       }
+       .cat-one{
+        flex-basis: 250px;
+        line-height: 25px;
+        background-color: #ffffff;
+        margin: 10px;
+        width: 100px;
+        color: #394b62;
+        padding-right: 20px;
+        border: 2px solid #f7f6f4;
+       }
+       .c-brand{
+        transform: translateY(1000px);
+        translate: 100px;
+        width: 100%;
+        height: px;
+       }
+       .brands{
+        transform: translateY(1050px);
+        translate: 100px;
+        
+
+       }
+       .c-testimonia{
+        transform: translateY(1200px);
+        background-color: #edf6fd;
+        height: 300px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 40px;
+       }
+       .test-box{
+        background-color: white;
+        border: 2px red;
+        border-color: #39625f;
+        transform: translateY(60px);
+        width: 300px;
+        height: 150px;
+        justify-content: center;
+        align-items: center;
+        translate: -270px;
+       }
+       .c-service{
+        width: 1520px;
+        height: 300px;
+        background-color: #ffffff;
+        transform: translateY(1200px);
+       }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+    <div class="navbar">
+        <div class="logo"><img src="/images/printivo logo.svg">
+            </div>
+            <div class="header">
+              <a href=""> cost  calculator</a> 
+              <a href="">  Discover Stores</a> 
+              <a href="">Track Orders</a>
+              <a class="call-link" href="tell:234.201.330.6047">Need help?call:+2342013306047</a>
+              <a href=""><img src="/images/whatsapp.svg" alt=""></a>
+              <a href=""><img src="/images/nigeria.svg" alt="">Nigeria</a>
+            </div>
+
+    <div class="Menu">
+        <ul>
+            <li><a href="">All Products</a></li>
+            <li><a href="">Become a Reseller</a></li>
+            <li><a href="">Merch Store</a></li>
+            <li><a href="">Market Place</a></li>
+            <li><a href="">Sign in</a></li>
+            <li><a href="">Create Account</a></li>
+            <li><a href=""><img src="/images/cart.svg" alt=""></a></li>
+        </ul>
+    </div>
+    <div class="title-font">
+        Quality Prints
+    </div>
+    <div class="sub-font">
+        Shipped to your doorstep
+    </div>
+    
+    <form action="">
+        <label class="searchquery" for="What would you like to print today ?">What would you like to print today ?</label>
+    <div class="search">
+        <span class=" search-icon material-symbols-outlined">search</span>
+        <input class="srch" type="search" name="" placeholder="Search For Business Cards,T-shirt,Mugs,etc">
+    </div>
+</form>
+<div class="card3">
+    <img src="/images/Card3_n9kqin.webp" alt="" height="300px" width="400px">
+</div>
+<div class="h3pop">
+<h3>Popular Products</h3>
+<a href="#">See All Products</a>
+</div>
+
+<div class="flex_container">
+    <div class="row">
+        <div class="col-3">
+            <div class="card">
+                <img src="images/two side.png" alt="Two-sided Business Cards" width="275px" height="250px">
+                <div class="card-body">
+                    <h5 class="card-title">Two-sided Business Cards</h5>
+                    <p class="card-text">STARTING AT</p>
+                    <h5 class="card-text">#15,100 <sub>per 100</sub></h5>
+                </div>
+            </div>
+    <!-- <h3>Two-sided Business Cards</h3>
+    <p>STARTING AT</p>
+    <h3>#15,100 <sub>per 100</sub></h3>
+    </div> -->
+    <div class="col-3">
+        <div class="card" style="width: 5rem;">
+            <img src="/images/A5.png" alt="" width="275px" height="250px">
+            <div class="card-body">
+                <h5 class="card-title">Two-sided Business Cards</h5>
+                <p class="card-text">STARTING AT</p>
+                <h5 class="card-text">#15,100 <sub>per 100</sub></h5> 
+            </div>
+            </div>
+    <div class="col-3">
+        <div class="card">
+            <img src="/images/round.png" alt="" width="275px" height="250px">
+            <div class="card-body">
+                <h5 class="card-title">Two-sided Business Cards</h5>
+                <p class="card-text">STARTING AT</p>
+                <h5 class="card-text">#15,100 <sub>per 100</sub></h5> 
+        </div>
+    <div class="col-3">
+        <div class="card">
+            <img src="/images/mugs.png" alt="" width="275px" height="250px">
+            <div class="card-body">
+                <h5 class="card-title">Two-sided Business Cards</h5>
+                <p class="card-text">STARTING AT</p>
+                <h5 class="card-text">#15,100 <sub>per 100</sub></h5>
+        </div>
+        </div>
+    <div class="col-3">
+        <img src="/images/post card.jpg" alt="" width="275px" height="250px">
+    <h3>Postcards (A6)</h3>
+    <p>STARTING AT</p>
+    <h3>#22,300 <sub>per 50</sub></h3>
+    </div>
+    <div class="col-3"><img src="/images/roll up.png" alt="" width="275px" height="250px"></div>
+    <div class="col-3"><img src="/images/a2.png" alt="" width="275px" height="250px"></div>
+    <div class="col-3"><img src="/images/trifold.png" alt="" width="275px" height="250px"></div>
+    <div class="col-3"><img src="/images/land.png" alt="" width="275px" height="250px">
+    <!-- <h3>Landscape ID Cards</h3>
+    <p>STARTING AT</p>
+    <h3>#3,100<sub>per 1</sub></h3>
+    </div>
+    <div class="col-3"><img src="/images/offwhite.png" alt="" width="275px" height="250px"></div>
+    <div class="col-3"><img src="/images/a4 branded.png" alt="" width="275px" height="250px"></div>
+    <div class="col-3"><img src="/images/a4 bag.jpeg" alt="" width="275px" height="250px"></div>
+</div>
+    <h2 class="categories">Popular Categories</h2>
+    <p class="all-cat">See All Categories</p> -->
+
+    <!-- <div class="all-categories">
+    <div class="cat-one"><img src="/images/greeting.png" alt="" width="275px" height="250px"></div>
+    <div class="cat-one"><img src="/images/sticker.png" alt="" width="275px" height="250px"></div>
+    </div>
+
+    <div class="c-brand">
+        <h1 class="c-brand-title">Nigeria’s No. 1 online print shop 👑</h1>
+        <h3 class="c-brand-title">Our print services and solutions are trusted by these brands and over 15,000 other businesses in Nigeria.</h3>
+    </div>
+
+    <div class="brands">
+    <div class="brands-box"><img src="/images/microsoft.png" alt="" width="1200px" height="150px"></div>
+    </div>
+    
+    <div class="c-testimonia">
+    <h2 style="translate: 100px;">What Customers Say About Us 🙌🏾</h2>
+    <div class="test-box">1</div>
+    <div class="test-box">2</div>
+    <div class="test-box">3</div>
+    </div>
+
+    <div class="c-service">
+
+    </div> -->
+
+</body>
+</html>
